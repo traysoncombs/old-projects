@@ -1,0 +1,12 @@
+[package]
+name = "ecc"
+version = "0.1.0"
+authors = ["endit"]
+edition = "2018"
+
+
+[dependencies]
+rand = "0.7"
+num-bigint = {version = "0.3.0", features = ["rand"]}
+base64 = "0.13.0"
+num-traits = "0.2.14"
